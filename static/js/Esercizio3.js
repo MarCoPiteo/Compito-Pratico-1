@@ -1,9 +1,8 @@
 let l = 60
-let d = 30
+let d = l/2
 
-let w = l*10
-let h = l*10
-
+let w = l*15
+let h = l*15
 
 let x = 0
 let y = 0

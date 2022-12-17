@@ -1,4 +1,4 @@
-let l = 100
+let l = 60
 
 let w = 600
 let h = 600
