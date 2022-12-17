@@ -3,7 +3,7 @@ let l = 60
 let x = 5
 let y = l/2
 
-let w = l*10
+let w = 600
 let h = 600
 
 let b = 0

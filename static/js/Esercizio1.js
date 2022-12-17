@@ -22,7 +22,7 @@ function draw() {
 
   x += l
 
-  if (x == w) {
+  if (x >= w) {
     y += l
     x = 0
   }
