@@ -1,8 +1,9 @@
-let w = 600
-let h = 600
-
-let d = 30
 let l = 60
+let d = 30
+
+let w = l*10
+let h = l*10
+
 
 let x = 0
 let y = 0
@@ -33,6 +34,8 @@ function draw() {
 
 		x = 0
 	}
+
+  lineWeightValue.innerHTML = `Dimensione: ${l}`
 }
 
 function clean() {
@@ -51,3 +54,5 @@ dimInput.addEventListener("input", function(e){
 	console.log(l)
 	clean()
 })
+
+let lineWeightValue = document.querySelector("#lineWeightValue")
