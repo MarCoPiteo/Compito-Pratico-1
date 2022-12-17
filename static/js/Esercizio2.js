@@ -57,3 +57,16 @@ function clean() {
 	x = 0
 	y = 0
 }
+
+let dimInput = document.querySelector("[name=dimensione]")
+dimInput.value = l
+
+dimInput.addEventListener("input", function(e){
+	console.log(`dimensione changed -> ${dimInput.value}`)
+	l = parseFloat(dimInput.value)
+	d = l/2
+	console.log(l)
+	clean()
+})
+
+let lineWeightValue = document.querySelector("#lineWeightValue")
