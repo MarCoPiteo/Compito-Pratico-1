@@ -3,18 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<title>Esercizio 1</title>
+	<style type="text/css">
+		body {
+			background-color: black;
+		}
+
+		* {
+			color: white;
+			margin: 0;
+		}
+	</style>
 </head>
 <body>
 	<div class="formWrapper">
 		<div style="margin-right: 40px;">
-			<label id="lineWeight">Dimensione Linea</label>
+			<label id="lineWeightValue">Dimensione Linea</label>
 			<div>
-				<input type="range" name="lineWeight" min="10" max="50">
+				<input type="range" name="dimensione" min="10" max="70" step="10" value="30">
 			</div>
 		</div>
 	</div>
 
-	<script type="text/javascript" src="../p5/p5.min.js"></script>
+	<script type="text/javascript" src="p5/p5.min.js"></script>
 	<script type="text/javascript" src="static/js/Esercizio1.js"></script>
 </body>
 </html>
